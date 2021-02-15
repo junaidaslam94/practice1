@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title></title>
+<!-- <script>
+
+
+    // var array = ["junaid", "aslam", "rajput"];
+    // var jun = (array)
+    // document.write(jun);
+
+
+    // if (name!="") {
+    //     document.write("nice t meet u "+name+".");
+        
+    // }
+
+
+
+// function check() {
+// var userconfirmation = confirm("Do u want to vist ");
+
+// if (userconfirmation == true) {
+//     window.open("https://www.youtube.com/");
+//     return true;
+    
+// } else {
+//     document.write("u doesnt want to vist")
+//     return false;
+    
+// }
+
+
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+</script> -->
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+<!-- <input type="button" name="" onclick="check()" value="submit"> -->
+    <!-- <script>
+        function fun() {
+            var Hammad = document.getElementById("choices").value;
+            
+        
+        switch (Hammad) {
+            case "ADD":   var a = 10;
+                        var b = 30;
+                        var sum = a + b;
+                        document.write("your add is two num is" +sum);   
+                break;
+        
+                case "mul":   var a=10;
+                        var b=30;
+                        var multi =a * b;
+                        document.write("your mul is two num is" +multi);   
+                break;
+        
+                case "Sub":   var a=10;
+                        var b=30;
+                        var Sub =a - b;
+                        document.write("your Sub is two num is" +Sub);   
+                break;
+            default:alert ("choice is not ri");
+        }
+        
+    }    
+        
+        
+            </script>
+         -->
+
+    <!--  <h2>Enter Your Value</h2> -->
+<!-- 
+<p id="c">Check my num</p>
+<p class="b">Check my brand</p>
+<p class="n">Check my name</p>
+
+
+
+    <ul>
+
+<li>ADD</li>
+<li>mul</li>
+<li>Sub</li>
+</ul> -->
+    <!-- <form>
+    <input type="text" name="" id="choices"><br><br>
+    <button onclick="fun()">Click Here</button>
+
+    </form> -->
+
+
+
+
+
+<div id="div1">this is contant one
+    <button onclick="myfun('div1')" >Divone</button>
+</div>
+<div id="div2">this is contant two
+    <button onclick="myfun('div2')" >Divtwo</button>
+</div>
+
+<div id="div3">this is contant three
+    <button onclick="myfun('div3')" >Divthree</button>
+</div>
+<button onclick="mywholepage()" >wholepage</button>
+
+
+
+<script>
+
+
+function mywholepage() {
+    window.print();  
+
+}
+function myfun(paravalue) {
+    var backup = document.body.innerHTML;
+    var divcon = document.getElementById(paravalue).innerHTML
+    document.body.innerHTML = divcon;
+window.print();
+    document.body.innerHTML = backup;
+}
+
+
+    
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

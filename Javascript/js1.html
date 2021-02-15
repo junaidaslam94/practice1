@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<script>
+
+// function myfun() {
+//     document.body.style.backgroundColor  ='black';
+//     document.body.style.color  = 'white';    
+
+// }
+// function mywhats() {
+//     document.body.style.backgroundColor  ='green';
+//     document.body.style.color  = 'white';    
+
+// }
+// function myface() {
+//     document.body.style.backgroundColor  ='blue';
+//     document.body.style.color  = 'white';    
+
+// }
+// function myyou() {
+//     document.body.style.backgroundColor  ='red';
+//     document.body.style.color  = 'white';    
+
+// }
+
+
+
+
+
+</script>
+
+
+
+
+<!-- </head>
+
+<h1>welcome to my page dsajf sajfp sjap fjs ap</h1>
+
+<button onkeypress="myfun()">click me</button>
+<button onkeydown="mywhats()">click me</button>
+<button onkeyup="myface()">click me</button> -->
+<!-- <button onmouseup="myyou()">click me</button> -->
+
+
+
+<body>
+
+<p id="clock"></p>
+
+
+
+
+
+<script>
+
+
+var dateobj = new Date();
+var month = dateobj.getUTCMonth() + 1;
+var day = dateobj.getUTCDate();
+var year = dateobj.getUTCFullYear();
+document.write(month +"/" + day  + "/" + year);
+document.write("<br>");
+
+    var clock = setInterval(ctime, 1000);
+   
+   
+   function ctime(){
+       var d = new Date();
+       var juna = d.toLocaleTimeString();
+       document.getElementById('clock').innerHTML = juna;
+       
+   }
+   
+   
+   
+   </script>
+   
+   
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
